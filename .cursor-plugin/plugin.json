@@ -1,0 +1,21 @@
+{
+  "name": "slashml-robotics",
+  "description": "Embodied spatial 6-DoF memory MCP server and skill for ROS 2, MoveIt 2, Nav2, and NVIDIA Isaac Sim.",
+  "version": "1.0.2",
+  "author": {
+    "name": "SlashML",
+    "email": "support@slashml.ai",
+    "url": "https://slashml.ai"
+  },
+  "homepage": "https://slashml.ai/use-cases/embodied-robotics.html",
+  "repository": "https://github.com/slashml-ai/cursor-slashml-robotics",
+  "license": "Apache-2.0",
+  "logo": ".claude-plugin/icon.png",
+  "skills": "./skills/",
+  "mcpServers": {
+    "slashml-robotics": {
+      "command": "node",
+      "args": ["hooks/slashml-robotics-mcp.js"]
+    }
+  }
+}
